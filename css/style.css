@@ -151,6 +151,7 @@ h6 {
   color: #b61984;
 }
 .form .input-group-prepend {
+  width: 20%;
   border: 1px solid #ced4da;
   overflow: hidden;
   border-radius: 50px 0 0 50px;
@@ -160,6 +161,7 @@ h6 {
   border: none;
 }
 .form input, .form select {
+  width: 80%;
   font-size: 0.8rem;
   border-left: none;
   border-radius: 0 50px 50px 0;
@@ -183,6 +185,7 @@ h6 {
   box-sizing: border-box;
 }
 .form .textarea-pretend {
+  width: 10%;
   border-radius: 20px 0 0 20px;
 }
 .form .textarea-pretend span {
@@ -190,6 +193,7 @@ h6 {
   align-items: flex-start;
 }
 .form .message {
+  width: 90%;
   font-size: 0.8rem;
   padding: 12px 0 !important;
   height: 90px;
@@ -242,6 +246,9 @@ h6 {
   z-index: 1500;
   background-color: #fff;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
+}
+.nav-fixed .navbar-brand {
+  display: none;
 }
 .nav-fixed .navbar {
   height: 48px !important;
@@ -337,7 +344,6 @@ header .social-media-link:hover {
   height: auto;
   display: block;
 }
-
 .listTeachers {
   background-color: #dcd1f3;
   position: relative;
@@ -356,7 +362,7 @@ header .social-media-link:hover {
 }
 @media screen and (max-width: 480px) {
   .listTeachers .card {
-    width: 80%;
+    width: 80% !important;
     margin: auto;
   }
 }
@@ -449,8 +455,8 @@ footer .footer__newsletter-form input:focus-visible, footer .footer__newsletter-
 footer .footer__about,
 footer .footer__quickLinks,
 footer .footer__contact {
-    width: 80%;
-    margin-bottom: 50px;
-    margin: auto;
+    width: 80% !important;
+    margin-bottom: 50px !important;
+    margin: auto !important;
   }
 }/*# sourceMappingURL=style.css.map */

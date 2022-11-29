@@ -44,7 +44,7 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header id="site-header" class="header-fixed nav-fixed">
+    <header id="site-header" class="header-fixed">
       <nav class="navbar navbar-expand-sm container">
         <a class="navbar-brand" href="#"
           ><img src="./img/crest.png" alt=""
@@ -117,15 +117,14 @@
       <div class="carousel__content py-5 px-0 container">
         <div class="row align-items-center">
           <div
-            class="carousel__title carousel__left col-lg-6 col-12 animate__fadeInLeft"
+            class="carousel__title carousel__left col-lg-6 col-12 animate__animated animate__slideInLeft"
           >
             <h3>ABOUT US</h3>
-            <h1>
-              The language <br />
-              teaching experts
-            </h1>
+            <h1>The language teaching experts</h1>
           </div>
-          <div class="carousel__right col-lg-6 col-12 animate__fadeIn">
+          <div
+            class="carousel__right col-lg-6 col-12 animate__animated animate__fadeIn"
+          >
             <div class="carousel__img">
               <img class="img-fluid" src="./img/hero_team.png" alt="" />
             </div>
@@ -139,7 +138,9 @@
     <section class="listTeachers">
       <div class="listTeachers__content container">
         <div class="row">
-          <div class="card col-lg-3 col-sm-6">
+          <div
+            class="card wow col-lg-3 col-sm-6 animate__animated animate__fadeIn"
+          >
             <div class="card__container">
               <div class="card-img-top__container" style="overflow: hidden">
                 <img class="card-img-top" src="./img/teacher_1.jpg" alt="" />
@@ -153,7 +154,10 @@
               </div>
             </div>
           </div>
-          <div class="card col-lg-3 col-sm-6">
+          <div
+            class="card wow col-lg-3 col-sm-6 animate__animated animate__fadeIn"
+            data-wow-delay=".2s"
+          >
             <div class="card__container">
               <div class="card-img-top__container" style="overflow: hidden">
                 <img class="card-img-top" src="./img/teacher_2.jpg" alt="" />
@@ -167,7 +171,10 @@
               </div>
             </div>
           </div>
-          <div class="card col-lg-3 col-sm-6">
+          <div
+            class="card wow col-lg-3 col-sm-6 animate__animated animate__fadeIn"
+            data-wow-delay=".4s"
+          >
             <div class="card__container">
               <div class="card-img-top__container" style="overflow: hidden">
                 <img class="card-img-top" src="./img/teacher_3.jpg" alt="" />
@@ -181,7 +188,10 @@
               </div>
             </div>
           </div>
-          <div class="card col-lg-3 col-sm-6">
+          <div
+            class="card wow col-lg-3 col-sm-6 animate__animated animate__fadeIn"
+            data-wow-delay=".6s"
+          >
             <div class="card__container">
               <div class="card-img-top__container" style="overflow: hidden">
                 <img class="card-img-top" src="./img/teacher_4.jpg" alt="" />
@@ -195,7 +205,9 @@
               </div>
             </div>
           </div>
-          <div class="card col-lg-3 col-sm-6">
+          <div
+            class="card wow col-lg-3 col-sm-6 animate__animated animate__fadeIn"
+          >
             <div class="card__container">
               <div class="card-img-top__container" style="overflow: hidden">
                 <img class="card-img-top" src="./img/teacher_5.jpg" alt="" />
@@ -209,7 +221,10 @@
               </div>
             </div>
           </div>
-          <div class="card col-lg-3 col-sm-6">
+          <div
+            class="card wow col-lg-3 col-sm-6 animate__animated animate__fadeIn"
+            data-wow-delay=".2s"
+          >
             <div class="card__container">
               <div class="card-img-top__container" style="overflow: hidden">
                 <img class="card-img-top" src="./img/teacher_6.jpg" alt="" />
@@ -223,7 +238,10 @@
               </div>
             </div>
           </div>
-          <div class="card col-lg-3 col-sm-6">
+          <div
+            class="card wow col-lg-3 col-sm-6 animate__animated animate__fadeIn"
+            data-wow-delay=".4s"
+          >
             <div class="card__container">
               <div class="card-img-top__container" style="overflow: hidden">
                 <img class="card-img-top" src="./img/teacher_7.jpg" alt="" />
@@ -237,7 +255,10 @@
               </div>
             </div>
           </div>
-          <div class="card col-lg-3 col-sm-6">
+          <div
+            class="card wow col-lg-3 col-sm-6 animate__animated animate__fadeIn"
+            data-wow-delay=".6s"
+          >
             <div class="card__container">
               <div class="card-img-top__container" style="overflow: hidden">
                 <img class="card-img-top" src="./img/teacher_8.jpg" alt="" />
@@ -260,18 +281,22 @@
     <section class="contactForm">
       <div class="contactForm__content m-auto container">
         <div class="row align-items-center">
-          <div class="contactForm__left col-lg-7 col-12">
+          <div
+            class="contactForm__left col-lg-7 col-12 animate__animated wow animate__slideInLeft"
+          >
             <div class="contactForm__img">
               <img class="img-fluid" src="./img/conatct_inner.png" alt="" />
             </div>
           </div>
-          <div class="contactForm__right col-lg-5 col-12">
+          <div
+            class="contactForm__right col-lg-5 col-12 animate__animated wow animate__fadeIn"
+          >
             <div class="form">
               <div class="form-container">
                 <h1>Find Your Course</h1>
                 <form>
                   <div class="row">
-                    <div class="input-group mb-3 col-6">
+                    <div class="input-group mb-3 col-6 d-flex">
                       <div class="input-group-prepend">
                         <span class="input-group-text"
                           ><i class="fa-regular fa-user"></i
@@ -283,7 +308,7 @@
                         placeholder="Name"
                       />
                     </div>
-                    <div class="input-group mb-3 col-6">
+                    <div class="input-group mb-3 col-6 d-flex">
                       <div class="input-group-prepend">
                         <span class="input-group-text"
                           ><i class="fa-regular fa-envelope"></i
@@ -308,7 +333,7 @@
                         <option>German</option>
                       </select>
                     </div>
-                    <div class="input-group mb-3 col-12">
+                    <div class="input-group mb-3 col-12 d-flex">
                       <div class="input-group-prepend textarea-pretend">
                         <span class="input-group-text"
                           ><i class="fa-regular fa-message"></i
@@ -339,7 +364,9 @@
     <footer>
       <div class="footer container">
         <div class="row">
-          <div class="footer__contact col-lg-3 col-sm-6">
+          <div
+            class="footer__contact col-lg-3 col-sm-6 animate__animated wow animate__fadeIn"
+          >
             <h1>Contact us</h1>
             <p>
               <i class="fa-solid fa-location-dot"></i> Franklin St, Greenpoint
@@ -372,7 +399,10 @@
               </li>
             </ul>
           </div>
-          <div class="footer__quickLinks col-lg-3 col-sm-6">
+          <div
+            class="footer__quickLinks col-lg-3 col-sm-6 animate__animated wow animate__fadeIn"
+            data-wow-delay=".2s"
+          >
             <h1>Quick Links</h1>
             <ul class="col-3 px-0">
               <li class="list-item-1">Home</li>
@@ -381,7 +411,10 @@
               <li class="list-item-4">Blog</li>
             </ul>
           </div>
-          <div class="footer__about col-lg-3 col-sm-6">
+          <div
+            class="footer__about col-lg-3 col-sm-6 animate__animated wow animate__fadeIn"
+            data-wow-delay=".4s"
+          >
             <h1>About</h1>
             <ul class="col-3 px-0">
               <li class="list-item-1">About Us</li>
@@ -390,7 +423,10 @@
               <li class="list-item-4">Contact</li>
             </ul>
           </div>
-          <div class="footer__newsletter-form col-lg-3 col-sm-6">
+          <div
+            class="footer__newsletter-form col-lg-3 col-sm-6 animate__animated wow animate__fadeIn"
+            data-wow-delay=".6s"
+          >
             <h1>Newsletter</h1>
             <form action="">
               <input type="text" placeholder="Your Email" />
@@ -443,6 +479,10 @@
           }
         });
       });
+    </script>
+    <script src="./libs/Wow/wow.min.js"></script>
+    <script>
+      new WOW().init();
     </script>
   </body>
 </html>

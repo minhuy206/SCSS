@@ -16,7 +16,7 @@
   }
   @include responsive(extra-small) {
     .card {
-      width: 80%;
+      width: 80% !important;
       margin: auto;
     }
   }

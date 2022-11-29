@@ -27,4 +27,9 @@
       display: block;
     }
   }
+  @include responsive(sm) {
+    .title {
+    
+    }
+  }
 }

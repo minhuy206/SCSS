@@ -11,6 +11,7 @@
     color: $main-color;
   }
   .input-group-prepend {
+    width: 20%;
     border: 1px solid #ced4da;
     overflow: hidden;
     border-radius: 50px 0 0 50px;
@@ -20,6 +21,7 @@
     border: none;
   }
   input {
+    width: 80%;
     font-size: 0.8rem;
     border-left: none;
     border-radius: 0 50px 50px 0;
@@ -48,6 +50,7 @@
     }
   }
   .textarea-pretend {
+    width: 10%;
     border-radius: 20px 0 0 20px;
     span {
       margin-top: 12px;
@@ -55,6 +58,7 @@
     }
   }
   .message {
+    width: 90%;
     font-size: 0.8rem;
     padding: 12px 0 !important;
     height: 90px;

@@ -68,9 +68,9 @@ footer {
     .footer__about,
     .footer__quickLinks,
     .footer__contact {
-      width: 80%;
-      margin-bottom: 50px;
-      margin: auto;
+      width: 80% !important;
+      margin-bottom: 50px !important;
+      margin: auto !important;
     }
   }
 }
