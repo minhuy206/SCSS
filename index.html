@@ -137,142 +137,7 @@
     </section>
     <section class="listTeachers">
       <div class="listTeachers__content container">
-        <div class="row">
-          <div
-            class="card wow col-lg-3 col-sm-6 animate__animated animate__fadeIn"
-          >
-            <div class="card__container">
-              <div class="card-img-top__container" style="overflow: hidden">
-                <img class="card-img-top" src="./img/teacher_1.jpg" alt="" />
-              </div>
-              <div class="card-body">
-                <h3>ITALIAN</h3>
-                <h1>July Roberts</h1>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="card wow col-lg-3 col-sm-6 animate__animated animate__fadeIn"
-            data-wow-delay=".2s"
-          >
-            <div class="card__container">
-              <div class="card-img-top__container" style="overflow: hidden">
-                <img class="card-img-top" src="./img/teacher_2.jpg" alt="" />
-              </div>
-              <div class="card-body">
-                <h3>FRENCH</h3>
-                <h1>Jon Stone</h1>
-                <p class="card-text">
-                  Nanotechnology immersion along the information.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="card wow col-lg-3 col-sm-6 animate__animated animate__fadeIn"
-            data-wow-delay=".4s"
-          >
-            <div class="card__container">
-              <div class="card-img-top__container" style="overflow: hidden">
-                <img class="card-img-top" src="./img/teacher_3.jpg" alt="" />
-              </div>
-              <div class="card-body">
-                <h3>JAPANESE</h3>
-                <h1>Emma Stone</h1>
-                <p class="card-text">
-                  Bring to the table win-win survival strategies to ensure.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="card wow col-lg-3 col-sm-6 animate__animated animate__fadeIn"
-            data-wow-delay=".6s"
-          >
-            <div class="card__container">
-              <div class="card-img-top__container" style="overflow: hidden">
-                <img class="card-img-top" src="./img/teacher_4.jpg" alt="" />
-              </div>
-              <div class="card-body">
-                <h3>CHINESE</h3>
-                <h1>Mark Lee</h1>
-                <p class="card-text">
-                  Proactive domination. At the end of the day, going forward.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="card wow col-lg-3 col-sm-6 animate__animated animate__fadeIn"
-          >
-            <div class="card__container">
-              <div class="card-img-top__container" style="overflow: hidden">
-                <img class="card-img-top" src="./img/teacher_5.jpg" alt="" />
-              </div>
-              <div class="card-body">
-                <h3>RUSSIAN</h3>
-                <h1>John Doe</h1>
-                <p class="card-text">
-                  A new normal that has evolved from generation X.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="card wow col-lg-3 col-sm-6 animate__animated animate__fadeIn"
-            data-wow-delay=".2s"
-          >
-            <div class="card__container">
-              <div class="card-img-top__container" style="overflow: hidden">
-                <img class="card-img-top" src="./img/teacher_6.jpg" alt="" />
-              </div>
-              <div class="card-body">
-                <h3>SWEDEN</h3>
-                <h1>Jane Smith</h1>
-                <p class="card-text">
-                  Heading towards a streamlined cloud solution.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="card wow col-lg-3 col-sm-6 animate__animated animate__fadeIn"
-            data-wow-delay=".4s"
-          >
-            <div class="card__container">
-              <div class="card-img-top__container" style="overflow: hidden">
-                <img class="card-img-top" src="./img/teacher_7.jpg" alt="" />
-              </div>
-              <div class="card-body">
-                <h3>SPANISH</h3>
-                <h1>Hanna Alverez</h1>
-                <p class="card-text">
-                  Content in real-time will have multiple touchpoints.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="card wow col-lg-3 col-sm-6 animate__animated animate__fadeIn"
-            data-wow-delay=".6s"
-          >
-            <div class="card__container">
-              <div class="card-img-top__container" style="overflow: hidden">
-                <img class="card-img-top" src="./img/teacher_8.jpg" alt="" />
-              </div>
-              <div class="card-body">
-                <h3>ITALIAN</h3>
-                <h1>July Roberts</h1>
-                <p class="card-text">
-                  Capitalize on low hanging fruit to identify a ballpark.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <div id="listTeachers__container" class="row"></div>
       </div>
       <div class="listTeachers-bg__bottom">
         <img src="./img/Wave_White_bottom_right_shape_01.png" alt="" />
@@ -454,6 +319,13 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <!-- Axios -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js"
+      integrity="sha512-zJYu9ICC+mWF3+dJ4QC34N9RA0OVS1XtPbnf6oXlvGrLGNB8egsEzu/5wgG90I61hOOKvcywoLzwNmPqGAdATA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script>
       $(window).on("scroll", function () {
         var scroll = $(window).scrollTop();
@@ -484,5 +356,7 @@
     <script>
       new WOW().init();
     </script>
+    <script src="./js/teacherService.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
